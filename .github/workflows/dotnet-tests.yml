@@ -25,7 +25,7 @@ jobs:
       run: dotnet restore XIRREngine.sln
 
     - name: Build the solution
-      run: dotnet build --no-restore --configuration Release
+      run: dotnet build XIRREngine.sln --no-restore --configuration Release
 
     - name: Run tests
       run: dotnet test XIRREngine.UnitTests --no-build --configuration Release --verbosity normal
