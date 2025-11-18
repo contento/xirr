@@ -22,7 +22,7 @@ jobs:
         dotnet-version: '8.0.x' # Use the .NET version you're targeting
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore XIRREngine.sln
 
     - name: Build the solution
       run: dotnet build --no-restore --configuration Release
