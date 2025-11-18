@@ -1,0 +1,9 @@
+<SolutionFilter>
+  <Solution Path="XIRREngine.sln">
+    <Projects>
+      <Project Path="Api/Api.csproj" />
+      <Project Path="TestApp/ConsoleApp.csproj" />
+      <Project Path="XIRREngine.UnitTests/Tests.csproj" />
+    </Projects>
+  </Solution>
+</SolutionFilter>
