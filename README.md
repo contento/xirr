@@ -1,5 +1,14 @@
 # XIRR Demo Solution
 
+```text
+  o  o
+\______/
+  |
+     |    https://conten.to
+--------
+```
+
+
 This repository contains a .NET 8 solution for demonstrating and calculating the Extended Internal Rate of Return (XIRR). The solution includes the following components:
 
 ## Projects
